@@ -1,0 +1,86 @@
+{
+  "contractName": "SimpleStorage",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SimpleStorage.sol\":\"SimpleStorage\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SimpleStorage.sol\":{\"keccak256\":\"0xc8e09d2996e7430d07fd58b73a6ffb4bdae537e88845fb2539d91bfb63696109\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://92b03672dfcd7e83de0abf59d6ed71b16961778e8abbe44f744021df6cea5bc9\",\"dweb:/ipfs/QmQbiMcwebaYYbusGwbe8kieJZD2GeSEwKouj9tfQfdxD4\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212206844c33b1da540a6e6616d1ed7aab616490b30a0935a71de0c18af4d5aae085064736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212206844c33b1da540a6e6616d1ed7aab616490b30a0935a71de0c18af4d5aae085064736f6c63430008130033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "68:25:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "68:25:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.5.0 <0.9.0;\r\n\r\ncontract SimpleStorage {}",
+  "sourcePath": "D:\\Blockchain\\auction-dapp\\contracts\\SimpleStorage.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/SimpleStorage.sol",
+    "exportedSymbols": {
+      "SimpleStorage": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:31:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SimpleStorage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "SimpleStorage",
+        "nameLocation": "77:13:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "68:25:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:60:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {
+    "1727610611727": {
+      "events": {},
+      "links": {},
+      "address": "0x63C060FD5fA3f9eC18aB20369FC7a409743c344B",
+      "transactionHash": "0x18747f1309c68e9e8db82b7cb5dc9b893ee1b9cadaeff95efa6aa40288f29012"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-09-29T11:53:06.294Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
